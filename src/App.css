@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans,sans-serif;
+  font-weight: 400;
+  color: #222;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+.flexible {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: space-around; */
+
+}
+.flexible.jAround {
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.flexible.aCenter {
+  align-items: center;
+}
+
+
+.flexible.wrap {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+
+
+.close {
+  display: none;
+}
+
+
+.App {
+  display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    min-height: 100vh;
+}
+
+
+.withStretch {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.page-content {
+  padding: 40px 100px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.flexible.grow {
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.flexible.vertical {
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.header-text {
+  color: #5c2be3;
+  font-size: 44px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.header-text .divider {
+  max-width: 600px;
+}
+.header-text .divider:before {
+  border-color: #fafafa;
+}
+
+
+
+.divider {
+  width: 80%;
+  margin: 10px auto;
+  height: 2px;
+  background-color: #5c2be3;
+  border-radius: 2px;
+  position: relative;
+}
+
+.divider:before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  left: 50%;
+  top: -10px;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #5c2be3;
+  border: 5px solid #fff;
+  border-radius: 100%;
+}
+
+.image-centering {
+  background-size: cover;
+  background-position: 50%;
+
+}
+
+.flexible.aStart {
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+
+.flexible.aEnd {
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.flexible.jCenter {
+  -ms-flex-pack: center;
+  justify-content: center;
+}

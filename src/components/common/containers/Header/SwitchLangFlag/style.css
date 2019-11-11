@@ -1,0 +1,14 @@
+.activeFlagBtn {
+    border: 1px solid white;
+    border-radius: 6px;
+}
+
+.langContainer span img {
+    width: 40px;
+    height: 30px;
+    padding: 4px;
+}
+.langContainer span  {
+    width: 50px;
+    height: 30px;
+}

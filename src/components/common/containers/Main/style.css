@@ -1,0 +1,16 @@
+.MainVideoBlock {
+    width: 100%;
+    height: 600px;
+}
+
+@media screen and (max-width: 768px){
+.MainImageBlock, .MainVideoBlock, .slick-slider {
+    height: 400px;
+}
+}
+
+.iframeChange{
+    width: 100%;
+    height: 100%;
+    border: 0;
+}

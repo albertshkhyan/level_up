@@ -1,0 +1,60 @@
+.TeamMemberItem .team-member-item-block .image-block {
+    width: 100%;
+    height: 280px;
+    background-size: cover;
+}
+
+.Main .main-content .members {
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+
+.TeamMemberItem {
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 2px 1px -1px rgba(0,0,0,.12);
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 2px 1px -1px rgba(0,0,0,.12);
+    width: 300px;
+    border-radius: 3px;
+    overflow: hidden;
+    margin: 12px;
+    background-color: #fff;
+}
+
+
+
+.TeamMemberItem .team-member-item-block .text-block h3 {
+    color: #5c2be3;
+    text-align: center;
+}
+
+.TeamMemberItem .team-member-item-block .text-block {
+    padding: 16px 24px;
+}
+
+
+.TeamMemberItem .team-member-item-block .text-block p.position {
+    color: #1277da;
+    text-align: center;
+    line-height: 21px;
+}
+
+.TeamMemberItem .team-member-item-block .text-block p.aboutWork {
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 21px;
+}
+
+
+
+/*social*/
+
+
+.TeamMemberItem .team-member-item-block .text-block .social {
+    padding-top: 6px;
+}
+
+
+.TeamMemberItem .team-member-item-block .text-block .social a {
+    cursor: pointer;
+}
+

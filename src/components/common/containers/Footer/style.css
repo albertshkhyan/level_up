@@ -1,0 +1,24 @@
+.Footer .footer-text {
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+Footer .logo a img {
+    width: 150px;
+}
+
+
+.Footer {
+    padding: 8px 24px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #5c2be3;
+    height: 90px;
+}
+
+.Footer .logo a {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}

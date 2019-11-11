@@ -1,0 +1,96 @@
+.CourseItemPage .courses-item-content {
+    width: 100%;
+    overflow: hidden;
+}
+
+.CourseItemPage .trainer-info {
+    padding-bottom: 50px;
+    margin: 0 20px;
+}
+
+.CourseItemPage .trainer-info .image-block {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #5c2be3;
+    border-radius: 100%;
+}
+
+.CourseItemPage .trainer-info .name {
+    font-size: 24px;
+    color: #1277da;
+}
+
+.CourseItemPage .trainer-info .position {
+    text-align: center;
+}
+
+.CourseItemPage .trainer-info .image-block .img {
+    border: 6px solid #fff;
+    width: calc(100% - 12px);
+    height: calc(100% - 12px);
+    border-radius: 100%;
+}
+
+.CourseItemPage {
+    overflow: hidden;
+}
+
+
+
+/**/
+
+.CourseItemPage  .course-item-content-block {
+    padding-bottom: 50px;
+    margin: 0 auto;
+    max-width: 600px;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.CourseItemPage .courses-item-content .desc-line {
+    font-size: 20px;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.CourseItemPage .courses-item-content .desc-line span {
+    display: block;
+    min-width: 25px;
+    height: 15px;
+    margin-right: 1rem;
+    margin-top: 7px;
+}
+
+
+.CourseItemPage .course-info-block .info {
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.CourseItemPage .course-info-block .info .Icon {
+    height: 30px;
+    margin-right: 12px;
+}
+
+.CourseItemPage .course-info-block .info span {
+    color: #1277da;
+    font-size: 20px;
+    margin-right: 12px;
+    text-transform: capitalize;
+}
+
+.CourseItemPage .course-info-block .info p {
+    font-size: 20px;
+}
+
+/*media*/
+
+@media screen and (max-width: 576px){
+.desc-line {
+    font-size: 16px!important;
+}
+}
+

@@ -1,0 +1,157 @@
+.Main .main-content {
+    width: 100%;
+    padding-top: 60px;
+}
+
+.Main .main-content .apply {
+    background-color: #5c2be3;
+    max-width: 250px;
+    margin: 0 auto 50px;
+    width: 100%;
+    border-radius: 10px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans,sans-serif;
+    font-weight: 400;
+    color: #222;
+    list-style: none;
+    text-decoration: none;
+}
+
+.Main .main-content .apply {
+    background-color: #5c2be3;
+    max-width: 250px;
+    margin: 0 auto 50px;
+    width: 100%;
+}
+.jss1 {
+    color: rgba(0, 0, 0, 0.87);
+    padding: 6px 16px;
+    font-size: 0.875rem;
+    min-width: 64px;
+    box-sizing: border-box;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    line-height: 1.75;
+    font-weight: 500;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    text-transform: uppercase;
+}
+.jss2 {
+    width: 100%;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    padding: 10px;
+}
+.jss3 {
+    padding: 6px 8px;
+}
+.jss27 {
+    color: inherit;
+    border: 0;
+    margin: 0;
+    cursor: pointer;
+    display: inline-flex;
+    outline: none;
+    padding: 0;
+    position: relative;
+    align-items: center;
+    user-select: none;
+    border-radius: 0;
+    vertical-align: middle;
+    justify-content: center;
+    -moz-appearance: none;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.jss30 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 0;
+    position: absolute;
+    overflow: hidden;
+    border-radius: inherit;
+    pointer-events: none;
+}
+.jss31 {
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  opacity: 0;
+  position: absolute;
+}
+.jss32 {
+  opacity: 0.3;
+  transform: scale(1);
+  animation: mui-ripple-enter 550ms cubic-bezier(0.4, 0, 0.2, 1);
+  animation-name: mui-ripple-enter;
+}
+.jss33 {
+  animation-duration: 200ms;
+}
+.jss34 {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  display: block;
+  border-radius: 50%;
+  background-color: currentColor;
+}
+.jss35 {
+  opacity: 0;
+  /* animation: mui-ripple-exit 550ms cubic-bezier(0.4, 0, 0.2, 1);
+  animation-name: mui-ripple-exit; */
+}
+.jss36 {
+  top: 0;
+  left: 0;
+  position: absolute;
+  /* animation: mui-ripple-pulsate 2500ms cubic-bezier(0.4, 0, 0.2, 1) 200ms infinite;
+  animation-name: mui-ripple-pulsate; */
+}
+
+
+
+
+
+
+
+/**/
+
+.Main .main-content .apply>span {
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: .8px;
+}
+
+@media screen and (max-width: 992px){
+.page-content {
+    padding: 30px 70px;
+}
+
+}
+
+@media screen and (max-width: 1200px){
+.page-content {
+
+    padding: 40px 80px;
+}
+}
+
+
+ 
+
+/*++++++++++++ divider+ +++++++++++++*/
+
+
+.header-text .divider {
+  max-width: 600px;
+}

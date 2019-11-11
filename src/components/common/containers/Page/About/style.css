@@ -1,0 +1,83 @@
+@media screen and (max-width: 992px) {
+.MainImageBlock, .MainVideoBlock, .slick-slider {
+    height: 500px;
+}
+
+}
+
+.AboutUs {
+    overflow: hidden;
+}
+
+.AboutUs .about-us-content {
+    width: 100%;
+}
+
+/**/
+
+.AboutUs .about-us-content .about-Info-content {
+    margin-bottom: 2rem;
+}
+
+.AboutUs .about-us-content .about-Info-content .image-centering {
+    min-width: 400px;
+    height: 250px;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 2px 1px -1px rgba(0,0,0,.12);
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 2px 1px -1px rgba(0,0,0,.12);
+}
+
+@media screen and (max-width: 992px) {
+.AboutUs .about-Info-content .image-centering {
+    margin-bottom: 2rem;
+    width: 100%;
+    min-width: inherit!important;
+    height: 300px!important;
+}
+}
+
+/**/
+
+.AboutUs .about-us-content .about-Info-content.reverse {
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+.AboutUs .about-us-content .about-Info-content p {
+    line-height: 28px;
+    padding-left: 2rem;
+    font-size: 14px;
+}
+
+.AboutUs .about-us-content .about-Info-content.reverse p {
+    padding-left: 0;
+    padding-right: 2rem;
+}
+
+@media screen and (max-width: 992px) {
+.AboutUs .about-Info-content p {
+    padding: 0!important;
+    line-height: 25px!important;
+}
+}
+
+@media screen and (max-width: 992px) {
+.AboutUs .about-Info-content {
+    -ms-flex-direction: column!important;
+    flex-direction: column!important;
+}
+}
+
+@media screen and (max-width: 768px) {
+.page-content {
+    padding: 25px 50px;
+}
+}
+
+@media screen and (max-width: 1200px) {
+.page-content {
+    padding: 40px 80px;
+}
+}

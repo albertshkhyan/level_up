@@ -1,0 +1,223 @@
+
+.Header {
+    height: 56px;
+    min-height: 56px;
+    position: relative;
+}
+
+.Header nav {
+    height: 56px;
+    padding: 8px 24px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #5c2be3;
+    z-index: 100;    
+}
+
+.Header nav ul li a {
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.Header nav ul li {
+    margin-right: 24px;
+}
+
+.Header nav .logo a .img {
+    width: 150px;
+    min-width: 150px;
+    height: 30px;
+    background-size: cover;
+}
+
+.Header nav ul li a.active {
+    color: #0ee4b1;
+}
+
+/**/
+
+
+.Header nav.isShadowShown {
+    -webkit-box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
+    box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
+}
+
+.flexible.jBetween {
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+/**/
+
+
+@media screen and (max-width: 768px) {
+    .Header.headerShown nav {
+        height: calc(100% - 90px);
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-pack: start!important;
+        justify-content: flex-start!important;
+        padding-top: 12px;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        
+    }
+    }
+
+    @media screen and (max-width: 768px) {
+        .Header.headerShown nav ul {
+            position: absolute;
+            top: 76px;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -ms-flex-align: start;
+            align-items: flex-start;
+            display: -ms-flexbox;
+            display: flex;
+        }
+
+}
+
+@media screen and (max-width: 768px) {
+.Header.headerShown nav ul li {
+    margin-right: 0;
+    margin-bottom: 36px;
+}
+}
+
+
+/*Hambureger*/
+.Header .menu-wrapper {
+    display: none;
+    position: absolute;
+    height: 28px;
+    top: 14px;
+    right: 24px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+.Header .menu-wrapper {
+    display: block;
+}
+}
+.Header .hamburger-menu.animate {
+    background: hsla(0,0%,100%,0);
+}
+
+.Header .hamburger-menu {
+    position: relative;
+    -webkit-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    transform: translateY(10px);
+    background: #fff;
+    -webkit-transition: all 0ms .3s;
+    -o-transition: all 0ms .3s;
+    transition: all 0ms .3s;
+}
+
+@media screen and (max-width: 768px){
+.Header ul {
+    display: none;
+}
+}
+.Header .hamburger-menu, .Header .hamburger-menu:after, .Header .hamburger-menu:before {
+    width: 40px;
+    height: 4px;
+    border-radius: 5px;
+}
+
+.Header .hamburger-menu.animate:before {
+    bottom: 0;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transition: bottom .3s cubic-bezier(.23,1,.32,1),-webkit-transform .3s cubic-bezier(.23,1,.32,1) .3s;
+    transition: bottom .3s cubic-bezier(.23,1,.32,1),-webkit-transform .3s cubic-bezier(.23,1,.32,1) .3s;
+    -o-transition: bottom .3s cubic-bezier(.23,1,.32,1),transform .3s .3s cubic-bezier(.23,1,.32,1);
+    transition: bottom .3s cubic-bezier(.23,1,.32,1),transform .3s cubic-bezier(.23,1,.32,1) .3s;
+    transition: bottom .3s cubic-bezier(.23,1,.32,1),transform .3s cubic-bezier(.23,1,.32,1) .3s,-webkit-transform .3s cubic-bezier(.23,1,.32,1) .3s;
+}
+
+.Header .hamburger-menu.animate:before {
+    bottom: 0;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transition: bottom .3s cubic-bezier(.23,1,.32,1),-webkit-transform .3s cubic-bezier(.23,1,.32,1) .3s;
+    transition: bottom .3s cubic-bezier(.23,1,.32,1),-webkit-transform .3s cubic-bezier(.23,1,.32,1) .3s;
+    -o-transition: bottom .3s cubic-bezier(.23,1,.32,1),transform .3s .3s cubic-bezier(.23,1,.32,1);
+    transition: bottom .3s cubic-bezier(.23,1,.32,1),transform .3s cubic-bezier(.23,1,.32,1) .3s;
+    transition: bottom .3s cubic-bezier(.23,1,.32,1),transform .3s cubic-bezier(.23,1,.32,1) .3s,-webkit-transform .3s cubic-bezier(.23,1,.32,1) .3s;
+}
+
+@media screen and (max-width: 768px) {
+.Header .menu-wrapper {
+    display: block;
+}
+}
+
+.Header .hamburger-menu:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    background: #fff;
+    -webkit-transition: bottom .3s cubic-bezier(.23,1,.32,1) .3s,-webkit-transform .3s cubic-bezier(.23,1,.32,1);
+    transition: bottom .3s cubic-bezier(.23,1,.32,1) .3s,-webkit-transform .3s cubic-bezier(.23,1,.32,1);
+    -o-transition: bottom .3s .3s cubic-bezier(.23,1,.32,1),transform .3s cubic-bezier(.23,1,.32,1);
+    transition: bottom .3s cubic-bezier(.23,1,.32,1) .3s,transform .3s cubic-bezier(.23,1,.32,1);
+    transition: bottom .3s cubic-bezier(.23,1,.32,1) .3s,transform .3s cubic-bezier(.23,1,.32,1),-webkit-transform .3s cubic-bezier(.23,1,.32,1);
+}
+
+.Header .hamburger-menu, .Header .hamburger-menu:after, .Header .hamburger-menu:before {
+    width: 40px;
+    height: 4px;
+    border-radius: 5px;
+}
+
+
+/*burger after*/
+
+.Header .hamburger-menu.animate:after {
+    top: 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: top .3s cubic-bezier(.23,1,.32,1),-webkit-transform .3s cubic-bezier(.23,1,.32,1) .3s;
+    transition: top .3s cubic-bezier(.23,1,.32,1),-webkit-transform .3s cubic-bezier(.23,1,.32,1) .3s;
+    -o-transition: top .3s cubic-bezier(.23,1,.32,1),transform .3s .3s cubic-bezier(.23,1,.32,1);
+    transition: top .3s cubic-bezier(.23,1,.32,1),transform .3s cubic-bezier(.23,1,.32,1) .3s;
+    transition: top .3s cubic-bezier(.23,1,.32,1),transform .3s cubic-bezier(.23,1,.32,1) .3s,-webkit-transform .3s cubic-bezier(.23,1,.32,1) .3s;
+}
+
+.Header .hamburger-menu:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 10px;
+    background: #fff;
+    -webkit-transition: top .3s cubic-bezier(.23,1,.32,1) .3s,-webkit-transform .3s cubic-bezier(.23,1,.32,1);
+    transition: top .3s cubic-bezier(.23,1,.32,1) .3s,-webkit-transform .3s cubic-bezier(.23,1,.32,1);
+    -o-transition: top .3s .3s cubic-bezier(.23,1,.32,1),transform .3s cubic-bezier(.23,1,.32,1);
+    transition: top .3s cubic-bezier(.23,1,.32,1) .3s,transform .3s cubic-bezier(.23,1,.32,1);
+    transition: top .3s cubic-bezier(.23,1,.32,1) .3s,transform .3s cubic-bezier(.23,1,.32,1),-webkit-transform .3s cubic-bezier(.23,1,.32,1);
+}
+
+
+
+/*+++++++++++++*/
+
+
+.Header nav.isShadowShown {
+    box-shadow: -1px 2px 9px 3px rgba(0,0,0), 0 6px 10px 0 rgba(0,0,0), 0 1px 18px 0 rgba(0,0,0);
+    background-color: rgba(63, 81, 181, 0.9);
+
+}
+
